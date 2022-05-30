@@ -1,4 +1,35 @@
-.App {
+
+
+body{
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+ background-color: black;
+}
+
+.container{
+  width: 100%;
+  margin: 1em auto;
+  background-color: rgb(12, 12, 12);
+}
+
+.grid{
+  display: grid;
+  margin-left: 0.5px;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 0.2em;
+  justify-content: center;
+}
+
+h2{
+  background-color: rgb(38, 36, 33);
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +66,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
